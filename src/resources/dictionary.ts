@@ -4,6 +4,17 @@ import { calcChapterCount } from '@/utils'
 // 中国考试
 const chinaExam: DictionaryResource[] = [
   {
+    id: 'relingo',
+    name: 'relingo',
+    description: 'relingo生词本',
+    category: '中国考试',
+    tags: ['其他'],
+    url: '/dicts/relingo.json',
+    length: 419,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
     id: 'cet4',
     name: 'CET-4',
     description: '大学英语四级词库',
